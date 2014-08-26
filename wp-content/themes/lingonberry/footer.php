@@ -1,4 +1,4 @@
-<?php if ( is_active_sidebar( 'footer-a' ) || is_active_sidebar( 'footer-b' ) || is_active_sidebar( 'footer-c' ) ) : ?>
+<!--<?php if ( is_active_sidebar( 'footer-a' ) || is_active_sidebar( 'footer-b' ) || is_active_sidebar( 'footer-c' ) ) : ?>
 
 	<div class="footer section">
 		
@@ -16,7 +16,7 @@
 				
 			<?php endif; ?> <!-- /footer-a -->
 				
-			<?php if ( is_active_sidebar( 'footer-b' ) ) : ?>
+<!--			<?php if ( is_active_sidebar( 'footer-b' ) ) : ?>
 			
 				<div class="footer-b widgets">
 			
@@ -28,7 +28,7 @@
 							
 			<?php endif; ?> <!-- /footer-b -->
 								
-			<?php if ( is_active_sidebar( 'footer-c' ) ) : ?>
+<!--			<?php if ( is_active_sidebar( 'footer-c' ) ) : ?>
 			
 				<div class="footer-c widgets">
 			
@@ -40,13 +40,13 @@
 				
 			<?php endif; ?> <!-- /footer-c -->
 			
-			<div class="clear"></div>
+<!--			<div class="clear"></div>
 		
 		</div> <!-- /footer-inner -->
 	
-	</div> <!-- /footer -->
+<!--	</div> <!-- /footer -->
 
-<?php endif; ?>
+<!-- <?php endif; ?> -->
 
 <div class="credits section">
 
@@ -54,13 +54,23 @@
 
 		<p class="credits-left">
 		
-			<span><?php _e('Copyright', 'lingonberry'); ?></span> &copy; <?php echo date("Y") ?> <a href="<?php echo home_url(); ?>/" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
-		
+			<span><?php _e('Copyright', 'lingonberry'); ?></span> &copy; <?php echo date("Y") ?> <a href="<?php echo home_url(); ?>/" title="<?php bloginfo('name'); ?>">Greenticket Denmark ApS</a>
+			 <br /><br />
+			 <a href="https://greenticket.dk/termsOfService">Handelsbetingelser</a>
+			 <br />
+			 <a href="https://greenticket.dk/termsOfEvents">Eventbetingelser</a>
+			 <br />
+			 <a href="https://greenticket.dk/privacy">Privatpolitik</a>
+			 <br />
+			 <a href="https://greenticket.dk/prices">Priser</a>
+			 <br />
+			 <a href="https://greenticket.dk/faq">FAQ</a>
+
 		</p>
 		
 		<p class="credits-right">
 			
-			<span><?php printf( __( 'Theme by <a href="%s">Anders Noren</a>', 'lingonberry'), 'http://www.andersnoren.se' ); ?> &mdash; </span><a title="<?php _e('To the top', 'lingonberry'); ?>" class="tothetop"><?php _e('Up', 'lingonberry' ); ?> &uarr;</a>
+			<a title="<?php _e('To the top', 'lingonberry'); ?>" class="tothetop"><?php _e('Up', 'lingonberry' ); ?> &uarr;</a>
 			
 		</p>
 		
@@ -68,7 +78,10 @@
 	
 	</div> <!-- /credits-inner -->
 	
+
 </div> <!-- /credits -->
+
+
 
 <?php wp_footer(); ?>
 
