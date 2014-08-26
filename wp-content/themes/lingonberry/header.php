@@ -17,7 +17,7 @@
 	
 	<body <?php body_class(); ?>>
 	
-		<div class="navigation">
+		<!-- <div class="navigation">
 				
 			<div class="navigation-inner section-inner">
 		
@@ -51,7 +51,7 @@
 			 
 			</div> <!-- /navigation-inner -->
 		 
-		</div> <!-- /navigation -->
+		<!--</div> <!-- /navigation -->
 	
 		<div class="header section">
 				
@@ -73,7 +73,7 @@
 					<a href="<?php echo esc_url( home_url() ); ?>/" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'title' ) ); ?></a>
 				</h1>
 				
-				<div class="nav-toggle">
+				<!-- <div class="nav-toggle">
 				
 					<div class="bar"></div>
 					<div class="bar"></div>
@@ -81,7 +81,7 @@
 					
 					<div class="clear"></div>
 				
-				</div>
+				</div> -->
 				 				
 				 <div class="clear"></div>
 																							
