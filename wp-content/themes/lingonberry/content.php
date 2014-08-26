@@ -48,8 +48,6 @@
 			
 			<span class="date-sep"> / </span>
 			
-			<?php comments_popup_link( '<span class="comment">' . __( '0 Comments', 'lingonberry' ) . '</span>', __( '1 Comment', 'lingonberry' ), __( '% Comments', 'lingonberry' ) ); ?>
-			
 			<?php if( is_sticky() && !has_post_thumbnail() ) { ?> 
 			
 				<span class="date-sep"> / </span>
