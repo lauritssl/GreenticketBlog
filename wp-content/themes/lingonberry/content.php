@@ -46,8 +46,6 @@
 				
 			<span class="post-author"><?php the_author_posts_link(); ?></span>
 			
-			<span class="date-sep"> / </span>
-			
 			<?php if( is_sticky() && !has_post_thumbnail() ) { ?> 
 			
 				<span class="date-sep"> / </span>
