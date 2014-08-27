@@ -72,8 +72,9 @@
 		
 		<div class="clear"></div>
 		<?php dynamic_sidebar( 'footer-c' ); ?>
-		<br />
-		&copy; <span><?php _e('Copyright', 'lingonberry'); ?></span> <a href="https://www.greenticket.dk" title="<?php bloginfo('name'); ?>">Greenticket Denmark ApS</a> <?php echo date("Y") ?>
+		<p class="credits-center">
+			&copy; <span><?php _e('Copyright', 'lingonberry'); ?></span> <a href="https://www.greenticket.dk" title="<?php bloginfo('name'); ?>">Greenticket Denmark ApS</a> <?php echo date("Y") ?>
+		</p>
 	</div> <!-- /credits-inner -->
 	
 
