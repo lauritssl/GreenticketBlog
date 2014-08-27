@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="content section-inner">
-																	                    
+	<?php query_posts('cat=4'); ?>																                    
 	<?php if (have_posts()) : ?>
 	
 		<div class="posts">
@@ -25,7 +25,6 @@
 			<?php endif; ?>
 				
 		    	<?php while (have_posts()) : the_post(); ?>
-		    		<?php if ( in_category( '4' ) ) : ?>
 					<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		    	
 			    		<?php get_template_part( 'content', get_post_format() ); ?>
@@ -35,7 +34,7 @@
 		    		</div> <!-- /post -->
 		    			        		            
 		        <?php endwhile; ?>
-	        	<?php endif; ?>        		
+	        	        		
 			<?php if ( $wp_query->max_num_pages > 1 ) : ?>
 			
 				<div class="post-nav archive-nav">
