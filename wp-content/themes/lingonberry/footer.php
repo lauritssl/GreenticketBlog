@@ -53,8 +53,6 @@
 	<div class="credits-inner section-inner">
 
 		<p class="credits-left">
-		
-			&copy; <span><?php _e('Copyright', 'lingonberry'); ?></span><a href="https://www.greenticket.dk" title="<?php bloginfo('name'); ?>">Greenticket Denmark ApS</a> <?php echo date("Y") ?>
 			 <br /><br />
 			 <a href="https://greenticket.dk/termsOfService">Handelsbetingelser</a>
 			 <br />
@@ -74,6 +72,8 @@
 		
 		<div class="clear"></div>
 		<?php dynamic_sidebar( 'footer-c' ); ?>
+		<br />
+		&copy; <span><?php _e('Copyright', 'lingonberry'); ?></span> <a href="https://www.greenticket.dk" title="<?php bloginfo('name'); ?>">Greenticket Denmark ApS</a> <?php echo date("Y") ?>
 	</div> <!-- /credits-inner -->
 	
 
