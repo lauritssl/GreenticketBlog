@@ -1821,7 +1821,7 @@ p.form-allowed-tags {
 
 .widgets:first-child { margin-left: 0; }
 
-.widget { margin-top: 2em; }
+.widget { margin-top: 1em; }
 .widget:first-child { margin-top: 0; }
 
 .widget-title { 
