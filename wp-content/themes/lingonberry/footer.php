@@ -54,7 +54,7 @@
 
 		<p class="credits-left">
 		
-			&copy; <span><?php _e('Copyright', 'lingonberry'); ?></span> <?php echo date("Y") ?> <a href="https://www.greenticket.dk" title="<?php bloginfo('name'); ?>">Greenticket Denmark ApS</a>
+			&copy; <span><?php _e('Copyright', 'lingonberry'); ?></span><a href="https://www.greenticket.dk" title="<?php bloginfo('name'); ?>">Greenticket Denmark ApS</a> <?php echo date("Y") ?>
 			 <br /><br />
 			 <a href="https://greenticket.dk/termsOfService">Handelsbetingelser</a>
 			 <br />
