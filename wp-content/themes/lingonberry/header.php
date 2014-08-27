@@ -69,9 +69,10 @@
 				
 				<?php endif; ?>
 			        				
-				<h1 class="blog-title">
-					<a href="<?php echo esc_url( home_url() ); ?>/" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'title' ) ); ?></a>
-				</h1>
+				<span class="blog-title">
+					<a href="<?php echo esc_url( home_url() ); ?>/" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><img src="https://s3-eu-west-1.amazonaws.com/greenticket-dk/logos/logo-white.png" style="width: 300px;
+margin-top: 10px;"></a>
+				</span>
 				
 				<!-- <div class="nav-toggle">
 				

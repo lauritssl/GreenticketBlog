@@ -232,7 +232,7 @@ input#s {
 .header .logo:hover img { opacity: 0; }
 
 .header .blog-title {
-	margin: 50px 0 50px 17%;
+	margin: 0px 0px 0px 17%;
 	float: left;
 	font-size: 2.2em;
 	line-height: 0;
