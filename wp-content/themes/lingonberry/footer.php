@@ -69,7 +69,7 @@
 		</p>
 		
 		<p class="credits-right">
-			
+			<?php dynamic_sidebar( 'footer-c' ); ?>
 			<a title="<?php _e('To the top', 'lingonberry'); ?>" class="tothetop"><?php _e('Up', 'lingonberry' ); ?> &uarr;</a>
 			
 		</p>
