@@ -922,6 +922,8 @@ html[xmlns] .slides { display: block; }
 	margin-top: 2em;
 	color: #888;
 	font-size: 0.925em;
+	padding-bottom: 4.5%;
+	border-bottom: 3px double #EEE;
 }
 
 .post-cat-tags p { display: inline-block; line-height: 120%; }
@@ -933,14 +935,14 @@ html[xmlns] .slides { display: block; }
 /* post-navigation */
 
 .post-nav {
-	padding: 4% 5.5%;
-	background: #2D3642;
+	padding: 0 5.5% 4% 5.5%;
+/*	background: #2D3642;*/
 }
 
 .post-nav a {
 	padding: 15px 20px;
 	margin: 1.5% 0;
-	background: #212831;
+	background: #333;
 	border-radius: 3px;
 	color: #FFF;
 	float: left;
