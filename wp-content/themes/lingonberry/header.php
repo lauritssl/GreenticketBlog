@@ -17,7 +17,7 @@
 	
 	<body <?php body_class(); ?>>
 	
-		<!-- <div class="navigation">
+		<div class="navigation">
 				
 			<div class="navigation-inner section-inner">
 		
@@ -51,7 +51,7 @@
 			 
 			</div> <!-- /navigation-inner -->
 		 
-		<!--</div> <!-- /navigation -->
+		</div> <!-- /navigation -->
 	
 		<div class="header section">
 				
@@ -74,7 +74,7 @@
 margin-top: 10px;"></a>
 				</span>
 				
-				<!-- <div class="nav-toggle">
+				<div class="nav-toggle">
 				
 					<div class="bar"></div>
 					<div class="bar"></div>
@@ -82,7 +82,7 @@ margin-top: 10px;"></a>
 					
 					<div class="clear"></div>
 				
-				</div> -->
+				</div>
 				 				
 				 <div class="clear"></div>
 																							
