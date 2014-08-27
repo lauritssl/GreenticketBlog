@@ -25,7 +25,6 @@
 			<?php endif; ?>
 				
 		    	<?php while (have_posts()) : the_post(); ?>
-		    		//Laurits
 		    		<?php if ( in_category( '4' ) ) : ?>
 					<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		    	
