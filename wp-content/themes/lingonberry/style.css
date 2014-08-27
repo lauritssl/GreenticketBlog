@@ -257,7 +257,7 @@ input#s {
 
 body > .navigation {
 	display: none;
-	background: #2D3642;
+	background: #333;
 }
 
 
@@ -269,7 +269,7 @@ body > .navigation {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: #2D3642;
+	background: #333;
 	padding: 8px;
 	border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
@@ -291,7 +291,7 @@ body > .navigation {
 
 .nav-toggle .bar:first-child { margin-top: 0; }
 
-.nav-toggle.active { background: #2D3642; }
+.nav-toggle.active { background: #333; }
 .nav-toggle.active .bar { background: #FFF; }
 
 

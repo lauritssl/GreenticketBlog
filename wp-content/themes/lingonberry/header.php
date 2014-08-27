@@ -34,7 +34,7 @@
 														
 						) ); } else {
 					
-						wp_list_pages( array(
+						wp_list_categories( array(
 						
 							'container' => '',
 							'title_li' => ''
