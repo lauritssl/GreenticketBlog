@@ -55,8 +55,8 @@ opacity:1;
 -o-transition:all .4s ease;
 transition:all .4s ease;
 background-color:transparent;
-background-image:url(../images/sprite.png);
-background-size:auto 16px;
+background-image:url(../images/spriteold.png);
+/*background-size:auto 16px;*/
 background-repeat:no-repeat;
 display:inline-block;
 margin-right:3px;
@@ -103,5 +103,7 @@ background-position:-112px 0
 #author-bio-box .bio-icon-instagram {
 background-position:-80px 0
 }
+
+
 
 
