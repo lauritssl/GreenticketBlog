@@ -290,6 +290,7 @@ class Author_Bio_Box {
 			'twitter'    => get_the_author_meta( 'twitter' ),
 			'googleplus' => get_the_author_meta( 'googleplus' ),
 			'linkedin'   => get_the_author_meta( 'linkedin' ),
+			'instagram'  => get_the_author_meta( 'instagram' ),
 			'flickr'	 => get_the_author_meta( 'flickr' ),
 			'tumblr'	 => get_the_author_meta( 'tumblr' ),
 			'vimeo'		 => get_the_author_meta( 'vimeo' ),
