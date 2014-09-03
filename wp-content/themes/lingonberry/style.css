@@ -1745,8 +1745,8 @@ p.form-allowed-tags {
 
 
 .page-title {
-	width: 87.5%;
-	float: right;
+	width: 50%;
+	float: left;
 }
 
 .page-title h4 {
