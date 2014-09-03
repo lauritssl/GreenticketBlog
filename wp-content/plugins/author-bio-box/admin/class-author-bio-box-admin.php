@@ -184,6 +184,7 @@ class Author_Bio_Box_Admin {
 		$methods['twitter']    = __( 'Twitter', $this->plugin_slug );
 		$methods['googleplus'] = __( 'Google Plus', $this->plugin_slug );
 		$methods['linkedin']   = __( 'LinkedIn', $this->plugin_slug );
+		$methods['instagram']  = __( 'Instagram', $this->plugin_slug );
 		$methods['flickr']     = __( 'Flickr', $this->plugin_slug );
 		$methods['tumblr']     = __( 'Tumblr', $this->plugin_slug );
 		$methods['vimeo']      = __( 'Vimeo', $this->plugin_slug );
