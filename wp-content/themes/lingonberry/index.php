@@ -39,9 +39,12 @@
 			
 				<div class="post-nav archive-nav">
 				
-					<?php echo get_next_posts_link( __('&laquo; Older<span> posts</span>', 'lingonberry')); ?>
+					<?php //echo get_next_posts_link( __('&laquo; Older<span> posts</span>', 'lingonberry')); ?>
 								
-					<?php echo get_previous_posts_link( __('Newer<span> posts</span> &raquo;', 'lingonberry')); ?>
+					<?php //echo get_previous_posts_link( __('Newer<span> posts</span> &raquo;', 'lingonberry')); ?>
+					<?php echo get_next_posts_link( __('&laquo;', 'lingonberry')); ?>
+								
+					<?php echo get_previous_posts_link( __('&raquo;', 'lingonberry')); ?>
 					
 					<div class="clear"></div>
 					
