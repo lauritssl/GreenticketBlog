@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="content section-inner">
-	<?php query_posts('cat=4'); ?>																                    
+	<?php //query_posts('cat=4'); ?>																                    
 	<?php if (have_posts()) : ?>
 	
 		<div class="posts">
