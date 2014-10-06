@@ -37,7 +37,6 @@ define('DB_COLLATE', '');
 define("FTP_HOST", "54.77.36.6");
 define("FTP_USER", "ftpuser");
 define("FTP_PASS", "FticketP42");
-
 /**#@+
  * Authentication Unique Keys and Salts.
  *
