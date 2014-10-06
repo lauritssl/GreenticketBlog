@@ -25,7 +25,7 @@ define('DB_USER', 'greenticket');
 define('DB_PASSWORD', 'MticketL42');
 
 /** MySQL hostname */
-define('DB_HOST', 'gt-2014-07-13-01.cl3q5egtkz5r.eu-west-1.rds.amazonaws.com');
+define('DB_HOST', 'gt-2014-10-04-0010.cl3q5egtkz5r.eu-west-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
